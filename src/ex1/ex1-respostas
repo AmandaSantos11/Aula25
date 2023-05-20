@@ -1,0 +1,18 @@
+Exercício 1
+
+A- As variáveis são: static int cor e public static String NOME = "ex1.Azul".
+
+B- O construtor é o: public Azul(int tonalidade)
+
+C- Os métodos são: public int getTonalidade(), public void setTonalidade(int tonalidade),
+public void tornarMaisEscuro(), void calcularTonalidade(), private void TornarTonalidadeMaisEscura(int valor).
+
+D- Respondida no código.
+
+E- Respondida no código.
+
+F- O código não roda pois o 'var' não é aceito pelo código e a classe Blue não existe.
+Para funcionar deveria ser escrito dessa forma: ex1.Azul color = new ex1.Azul(45);
+Pois desse jeito o objeto color estaria sendo instâciando pela classe ex1.Azul.
+
+G- Criei a main.
